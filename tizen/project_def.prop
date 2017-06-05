@@ -1,0 +1,11 @@
+APPNAME = smart_tumbler
+
+type = app
+profile = mobile-3.0
+
+USER_SRCS = src/smart_tumbler.c
+USER_DEFS =
+USER_INC_DIRS = inc
+USER_OBJS =
+USER_LIBS =
+USER_EDCS =

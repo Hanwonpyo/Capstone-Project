@@ -1,0 +1,4 @@
+set sysroot C:\tizen\tizen-studio\platforms\tizen-3.0\mobile\rootstraps\mobile-3.0-device.core
+set debug-file-directory C:\tizen\tizen-studio\platforms\tizen-3.0\mobile\rootstraps\mobile-3.0-device.core\usr\lib\debug
+set solib-search-path C:\Users\CAUCSE\tizen\smart_tumbler\Debug
+dir C:\tizen\tizen-studio\platforms\tizen-3.0\mobile\rootstraps\mobile-3.0-device.core\usr\src\debug

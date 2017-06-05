@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.4" package="org.example.smart_tumbler" version="1.0.0">
+    <author email="bhs9194@nate.com">boo</author>
+    <profile name="mobile"/>
+    <ui-application appid="org.example.smart_tumbler" exec="smart_tumbler" launch_mode="single" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>smart_tumbler</label>
+        <icon>smart_tumbler.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/bluetooth</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+        <privilege>http://tizen.org/privilege/recorder</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/speech.recognition">true</feature>
+    <feature name="http://tizen.org/feature/speech.synthesis">true</feature>
+</manifest>
